@@ -6,13 +6,19 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "lpt": "./bin/index.js"
+    "lit": "./bin/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "commander": "^14.0.0"
+    "commander": "^14.0.0",
+    "prompts": "^2.4.2",
+    "shelljs": "^0.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "@types/shelljs": "^0.8.16"
   }
 }
